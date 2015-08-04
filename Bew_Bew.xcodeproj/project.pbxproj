@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FDCF4FF33A865992158B329 /* Pods_Bew_Bew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC386959A71B17F48534561 /* Pods_Bew_Bew.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C5D05B701B7131AE007F894A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D05B6F1B7131AE007F894A /* AppDelegate.swift */; };
 		C5D05B721B7131AE007F894A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D05B711B7131AE007F894A /* ViewController.swift */; };
 		C5D05B751B7131AE007F894A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D05B731B7131AE007F894A /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7AC386959A71B17F48534561 /* Pods_Bew_Bew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bew_Bew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3ABD2EFDFF05F7B70AB2D9C /* Pods-Bew_Bew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bew_Bew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bew_Bew/Pods-Bew_Bew.debug.xcconfig"; sourceTree = "<group>"; };
 		C5D05B6A1B7131AE007F894A /* Bew_Bew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bew_Bew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D05B6E1B7131AE007F894A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D05B6F1B7131AE007F894A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		C5D05B841B7131AE007F894A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D05B851B7131AE007F894A /* Bew_BewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bew_BewTests.swift; sourceTree = "<group>"; };
 		C5D05B8F1B7132AC007F894A /* AIRHORN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AIRHORN.mp3; sourceTree = "<group>"; };
+		C73FB9065E5C2D9A60D2B1B7 /* Pods-Bew_Bew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bew_Bew.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bew_Bew/Pods-Bew_Bew.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FDCF4FF33A865992158B329 /* Pods_Bew_Bew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB693D77F8EFBD3A83923B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AC386959A71B17F48534561 /* Pods_Bew_Bew.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5D05B611B7131AE007F894A = {
 			isa = PBXGroup;
 			children = (
 				C5D05B6C1B7131AE007F894A /* Bew_Bew */,
 				C5D05B821B7131AE007F894A /* Bew_BewTests */,
 				C5D05B6B1B7131AE007F894A /* Products */,
+				E3F0F44BED46A3AE4DBE6D79 /* Pods */,
+				AB693D77F8EFBD3A83923B7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +130,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E3F0F44BED46A3AE4DBE6D79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3ABD2EFDFF05F7B70AB2D9C /* Pods-Bew_Bew.debug.xcconfig */,
+				C73FB9065E5C2D9A60D2B1B7 /* Pods-Bew_Bew.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5D05B891B7131AE007F894A /* Build configuration list for PBXNativeTarget "Bew_Bew" */;
 			buildPhases = (
+				85A70865DD8464B467863D59 /* Check Pods Manifest.lock */,
 				C5D05B661B7131AE007F894A /* Sources */,
 				C5D05B671B7131AE007F894A /* Frameworks */,
 				C5D05B681B7131AE007F894A /* Resources */,
+				B05E8B7C2F3B48F284C9F86A /* Embed Pods Frameworks */,
+				F90509953DE33198769A0F31 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +186,7 @@
 		C5D05B621B7131AE007F894A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jordan Riser";
 				TargetAttributes = {
@@ -210,6 +238,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85A70865DD8464B467863D59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B05E8B7C2F3B48F284C9F86A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bew_Bew/Pods-Bew_Bew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90509953DE33198769A0F31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bew_Bew/Pods-Bew_Bew-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5D05B661B7131AE007F894A /* Sources */ = {
@@ -342,6 +418,7 @@
 		};
 		C5D05B8A1B7131AE007F894A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3ABD2EFDFF05F7B70AB2D9C /* Pods-Bew_Bew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bew_Bew/Info.plist;
@@ -352,6 +429,7 @@
 		};
 		C5D05B8B1B7131AE007F894A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73FB9065E5C2D9A60D2B1B7 /* Pods-Bew_Bew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bew_Bew/Info.plist;
@@ -413,6 +491,7 @@
 				C5D05B8B1B7131AE007F894A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5D05B8C1B7131AE007F894A /* Build configuration list for PBXNativeTarget "Bew_BewTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +500,7 @@
 				C5D05B8E1B7131AE007F894A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

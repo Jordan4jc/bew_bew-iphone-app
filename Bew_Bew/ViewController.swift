@@ -8,6 +8,7 @@
 
 import UIKit
 import AudioToolbox
+import UIColor_Hex_Swift
 
 class ViewController: UIViewController {
     
@@ -30,7 +31,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonReleased(sender: AnyObject) {//Touch Up Inside action
-//        button.backgroundColor = UIColor(red: 0.01219512195122, green: 1.0, blue: 1.0, alpha: 1.0)
         println("Released")
         
     }
