@@ -1,25 +1,44 @@
 //
 //  ViewController.swift
-//  Bew_Bew
+//  Bern
 //
-//  Created by Jordan Riser on 8/4/15.
+//  Created by Jordan Riser on 8/3/15.
 //  Copyright (c) 2015 Jordan Riser. All rights reserved.
 //
 
 import UIKit
+import AudioToolbox
 
 class ViewController: UIViewController {
-
+    
+    var horn: SystemSoundID = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var hornSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("AIRHORN", ofType: "mp3")!)
+        
+        AudioServicesCreateSystemSoundID(hornSound!, &self.horn)
     }
-
+    
+    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func buttonClicked(sender: AnyObject) {//Touch Down action
+        AudioServicesPlaySystemSound(self.horn)
+//        button.backgroundColor = UIColor.whiteColor()
+        println("Clicked")
+    }
+    
+    @IBAction func buttonReleased(sender: AnyObject) {//Touch Up Inside action
+//        button.backgroundColor = UIColor(red: 0.01219512195122, green: 1.0, blue: 1.0, alpha: 1.0)
+        println("Released")
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
