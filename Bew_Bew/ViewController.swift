@@ -26,15 +26,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonClicked(sender: AnyObject) {//Touch Down action
         AudioServicesPlaySystemSound(self.horn)
-        button.backgroundColor = UIColor.whiteColor()
     }
     
-    @IBAction func buttonReleased(sender: AnyObject) {//Touch Up Inside action
-        UIView.animateWithDuration(0.4, delay: 0.0, options: UIViewAnimationOptions.AllowUserInteraction, animations: { () -> Void in
-            self.button.backgroundColor = UIColor.colorWithCSS("#52fffe")
-        }, completion: nil)
-        
-    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
