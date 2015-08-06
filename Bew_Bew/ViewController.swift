@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AudioToolbox
+import AVFoundation
 import UIColor_Hex_Swift
 
 class ViewController: UIViewController {
@@ -15,21 +15,28 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         view.backgroundColor = UIColor.colorWithCSS("#3498DB")
     }
-    
-    var horn: SystemSoundID = 0
+
+    var audioPlayer = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         var hornSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("AIRHORN", ofType: "mp3")!)
         
-        AudioServicesCreateSystemSoundID(hornSound!, &self.horn)
+        AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, error: nil)
+        AVAudioSession.sharedInstance().setActive(true, error: nil)
+        
+        var error:NSError?
+        audioPlayer = AVAudioPlayer(contentsOfURL: hornSound, error: &error)
+        audioPlayer.prepareToPlay()
     }
     
     @IBOutlet weak var button: UIButton!
     
     @IBAction func buttonClicked(sender: AnyObject) {//Touch Down action
-        AudioServicesPlaySystemSound(self.horn)
+        println("Pressed")
+        audioPlayer.currentTime = 0
+        audioPlayer.play()
     }
     
     override func didReceiveMemoryWarning() {
