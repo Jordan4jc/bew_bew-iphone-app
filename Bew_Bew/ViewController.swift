@@ -12,6 +12,10 @@ import UIColor_Hex_Swift
 
 class ViewController: UIViewController {
     
+    override func viewWillAppear(animated: Bool) {
+        view.backgroundColor = UIColor.colorWithCSS("#3498DB")
+    }
+    
     var horn: SystemSoundID = 0
     
     override func viewDidLoad() {
