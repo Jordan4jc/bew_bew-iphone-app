@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5FDCF4FF33A865992158B329 /* Pods_Bew_Bew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC386959A71B17F48534561 /* Pods_Bew_Bew.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C56B82BF1B72F4C100214EAC /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C56B82BE1B72F4C100214EAC /* Logo.png */; };
+		C56B82C01B7372D600214EAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D05B781B7131AE007F894A /* LaunchScreen.xib */; };
 		C5D05B701B7131AE007F894A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D05B6F1B7131AE007F894A /* AppDelegate.swift */; };
 		C5D05B721B7131AE007F894A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D05B711B7131AE007F894A /* ViewController.swift */; };
 		C5D05B751B7131AE007F894A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D05B731B7131AE007F894A /* Main.storyboard */; };
 		C5D05B771B7131AE007F894A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D05B761B7131AE007F894A /* Images.xcassets */; };
-		C5D05B7A1B7131AE007F894A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D05B781B7131AE007F894A /* LaunchScreen.xib */; };
 		C5D05B861B7131AE007F894A /* Bew_BewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D05B851B7131AE007F894A /* Bew_BewTests.swift */; };
 		C5D05B901B7132AC007F894A /* AIRHORN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5D05B8F1B7132AC007F894A /* AIRHORN.mp3 */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		7AC386959A71B17F48534561 /* Pods_Bew_Bew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bew_Bew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3ABD2EFDFF05F7B70AB2D9C /* Pods-Bew_Bew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bew_Bew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bew_Bew/Pods-Bew_Bew.debug.xcconfig"; sourceTree = "<group>"; };
+		C56B82BE1B72F4C100214EAC /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		C5D05B6A1B7131AE007F894A /* Bew_Bew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bew_Bew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D05B6E1B7131AE007F894A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D05B6F1B7131AE007F894A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		C5D05B6D1B7131AE007F894A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C56B82BE1B72F4C100214EAC /* Logo.png */,
 				C5D05B8F1B7132AC007F894A /* AIRHORN.mp3 */,
 				C5D05B6E1B7131AE007F894A /* Info.plist */,
 			);
@@ -223,9 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56B82BF1B72F4C100214EAC /* Logo.png in Resources */,
 				C5D05B901B7132AC007F894A /* AIRHORN.mp3 in Resources */,
 				C5D05B751B7131AE007F894A /* Main.storyboard in Resources */,
-				C5D05B7A1B7131AE007F894A /* LaunchScreen.xib in Resources */,
+				C56B82C01B7372D600214EAC /* LaunchScreen.xib in Resources */,
 				C5D05B771B7131AE007F894A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
