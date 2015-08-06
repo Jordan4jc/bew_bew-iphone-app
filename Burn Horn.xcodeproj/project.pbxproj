@@ -32,14 +32,14 @@
 		7AC386959A71B17F48534561 /* Pods_Bew_Bew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bew_Bew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3ABD2EFDFF05F7B70AB2D9C /* Pods-Bew_Bew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bew_Bew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bew_Bew/Pods-Bew_Bew.debug.xcconfig"; sourceTree = "<group>"; };
 		C56B82BE1B72F4C100214EAC /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
-		C5D05B6A1B7131AE007F894A /* Bew_Bew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bew_Bew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D05B6A1B7131AE007F894A /* Burn Horn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burn Horn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D05B6E1B7131AE007F894A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D05B6F1B7131AE007F894A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D05B711B7131AE007F894A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5D05B741B7131AE007F894A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D05B761B7131AE007F894A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5D05B791B7131AE007F894A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C5D05B7F1B7131AE007F894A /* Bew_BewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bew_BewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D05B7F1B7131AE007F894A /* Burn HornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Burn HornTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D05B841B7131AE007F894A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D05B851B7131AE007F894A /* Bew_BewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bew_BewTests.swift; sourceTree = "<group>"; };
 		C5D05B8F1B7132AC007F894A /* AIRHORN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AIRHORN.mp3; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		C5D05B611B7131AE007F894A = {
 			isa = PBXGroup;
 			children = (
-				C5D05B6C1B7131AE007F894A /* Bew_Bew */,
+				C5D05B6C1B7131AE007F894A /* Burn Horn */,
 				C5D05B821B7131AE007F894A /* Bew_BewTests */,
 				C5D05B6B1B7131AE007F894A /* Products */,
 				E3F0F44BED46A3AE4DBE6D79 /* Pods */,
@@ -87,13 +87,13 @@
 		C5D05B6B1B7131AE007F894A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5D05B6A1B7131AE007F894A /* Bew_Bew.app */,
-				C5D05B7F1B7131AE007F894A /* Bew_BewTests.xctest */,
+				C5D05B6A1B7131AE007F894A /* Burn Horn.app */,
+				C5D05B7F1B7131AE007F894A /* Burn HornTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5D05B6C1B7131AE007F894A /* Bew_Bew */ = {
+		C5D05B6C1B7131AE007F894A /* Burn Horn */ = {
 			isa = PBXGroup;
 			children = (
 				C5D05B6F1B7131AE007F894A /* AppDelegate.swift */,
@@ -103,6 +103,7 @@
 				C5D05B781B7131AE007F894A /* LaunchScreen.xib */,
 				C5D05B6D1B7131AE007F894A /* Supporting Files */,
 			);
+			name = "Burn Horn";
 			path = Bew_Bew;
 			sourceTree = "<group>";
 		};
@@ -145,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5D05B691B7131AE007F894A /* Bew_Bew */ = {
+		C5D05B691B7131AE007F894A /* Burn Horn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D05B891B7131AE007F894A /* Build configuration list for PBXNativeTarget "Bew_Bew" */;
+			buildConfigurationList = C5D05B891B7131AE007F894A /* Build configuration list for PBXNativeTarget "Burn Horn" */;
 			buildPhases = (
 				85A70865DD8464B467863D59 /* Check Pods Manifest.lock */,
 				C5D05B661B7131AE007F894A /* Sources */,
@@ -160,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = Bew_Bew;
+			name = "Burn Horn";
 			productName = Bew_Bew;
-			productReference = C5D05B6A1B7131AE007F894A /* Bew_Bew.app */;
+			productReference = C5D05B6A1B7131AE007F894A /* Burn Horn.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C5D05B7E1B7131AE007F894A /* Bew_BewTests */ = {
+		C5D05B7E1B7131AE007F894A /* Burn HornTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D05B8C1B7131AE007F894A /* Build configuration list for PBXNativeTarget "Bew_BewTests" */;
+			buildConfigurationList = C5D05B8C1B7131AE007F894A /* Build configuration list for PBXNativeTarget "Burn HornTests" */;
 			buildPhases = (
 				C5D05B7B1B7131AE007F894A /* Sources */,
 				C5D05B7C1B7131AE007F894A /* Frameworks */,
@@ -178,9 +179,9 @@
 			dependencies = (
 				C5D05B811B7131AE007F894A /* PBXTargetDependency */,
 			);
-			name = Bew_BewTests;
+			name = "Burn HornTests";
 			productName = Bew_BewTests;
-			productReference = C5D05B7F1B7131AE007F894A /* Bew_BewTests.xctest */;
+			productReference = C5D05B7F1B7131AE007F894A /* Burn HornTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C5D05B651B7131AE007F894A /* Build configuration list for PBXProject "Bew_Bew" */;
+			buildConfigurationList = C5D05B651B7131AE007F894A /* Build configuration list for PBXProject "Burn Horn" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,8 +216,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5D05B691B7131AE007F894A /* Bew_Bew */,
-				C5D05B7E1B7131AE007F894A /* Bew_BewTests */,
+				C5D05B691B7131AE007F894A /* Burn Horn */,
+				C5D05B7E1B7131AE007F894A /* Burn HornTests */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +315,7 @@
 /* Begin PBXTargetDependency section */
 		C5D05B811B7131AE007F894A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5D05B691B7131AE007F894A /* Bew_Bew */;
+			target = C5D05B691B7131AE007F894A /* Burn Horn */;
 			targetProxy = C5D05B801B7131AE007F894A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,7 +429,7 @@
 				INFOPLIST_FILE = Bew_Bew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Bew_Bew;
+				PRODUCT_NAME = "Burn Horn";
 			};
 			name = Debug;
 		};
@@ -440,7 +441,7 @@
 				INFOPLIST_FILE = Bew_Bew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Bew_Bew;
+				PRODUCT_NAME = "Burn Horn";
 			};
 			name = Release;
 		};
@@ -458,7 +459,7 @@
 				);
 				INFOPLIST_FILE = Bew_BewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Burn HornTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bew_Bew.app/Bew_Bew";
 			};
 			name = Debug;
@@ -473,7 +474,7 @@
 				);
 				INFOPLIST_FILE = Bew_BewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Burn HornTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bew_Bew.app/Bew_Bew";
 			};
 			name = Release;
@@ -481,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5D05B651B7131AE007F894A /* Build configuration list for PBXProject "Bew_Bew" */ = {
+		C5D05B651B7131AE007F894A /* Build configuration list for PBXProject "Burn Horn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D05B871B7131AE007F894A /* Debug */,
@@ -490,7 +491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D05B891B7131AE007F894A /* Build configuration list for PBXNativeTarget "Bew_Bew" */ = {
+		C5D05B891B7131AE007F894A /* Build configuration list for PBXNativeTarget "Burn Horn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D05B8A1B7131AE007F894A /* Debug */,
@@ -499,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D05B8C1B7131AE007F894A /* Build configuration list for PBXNativeTarget "Bew_BewTests" */ = {
+		C5D05B8C1B7131AE007F894A /* Build configuration list for PBXNativeTarget "Burn HornTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D05B8D1B7131AE007F894A /* Debug */,
